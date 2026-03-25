@@ -4,14 +4,6 @@
   "workspaces": {
     "": {
       "name": "monorepo",
-      "dependencies": {
-        "@prisma/adapter-libsql": "^7.4.2",
-        "@prisma/client": "^7.4.2",
-        "dotenv": "^17.3.1",
-      },
-      "devDependencies": {
-        "prisma": "^7.4.2",
-      },
     },
     "apps/backend": {
       "name": "backend",
